@@ -1,0 +1,48 @@
+/* CSS Document */
+
+
+html, body {
+	margin: 0;
+	padding: 0;
+}
+
+.jumbotron {
+	height: 88vh;
+	background: url(images/necklace.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: right;
+	
+}
+
+@media (max-width: 1200px) {
+	.jumbotron {
+		background: url(images/necklace2.jpg);
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: right;
+	}
+}
+
+@media (max-width: 768px) {
+	.jumbotron {
+		background: url(images/necklace3.jpg);
+	}
+}
+
+.navbar {
+/*	background-color: black;*/
+}
+
+.navbar a {
+	font-size: 1.5rem;
+}
+
+.graphics-header {
+	padding: 30px;
+}
+
+.gallery-img {
+    margin-bottom: 30px;
+}
+
